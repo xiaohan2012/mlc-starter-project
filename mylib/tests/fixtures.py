@@ -1,7 +1,7 @@
 import pytest
 import numpy as np
 from scipy import sparse as sp
-from dmrs.data import Dataset
+from ..data import Dataset
 
 @pytest.fixture
 def Y():

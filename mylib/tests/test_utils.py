@@ -3,7 +3,7 @@ import numpy as np
 
 from scipy import sparse as sp
 
-from dmrs.utils import (convert_matrix_to_sets, convert_matrix_to_sets_v2, convert_sets_to_matrix, csr_matrix_equal, conjunctive_collapse, conjunctive_collapse_v2)
+from ..utils import (convert_matrix_to_sets, convert_matrix_to_sets_v2, convert_sets_to_matrix, csr_matrix_equal, conjunctive_collapse, conjunctive_collapse_v2)
 
 
 def test_convert_matrix_to_sets():

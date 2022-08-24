@@ -1,4 +1,4 @@
-from dmrs.evaluation import TailEvaluator
+from ..evaluation import TailEvaluator
 
 from .fixtures import toy_dataset as ds
 
