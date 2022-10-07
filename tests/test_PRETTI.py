@@ -1,8 +1,9 @@
-from dmrs.PRETTI.PRETTI_Trie import PTrie
-from dmrs.PRETTI.PRETTI_invertedIndex import InvertedIndex
-import numpy as np 
-from dmrs.samplers.assignment import PRETTISampleAssignmentMixin
+import numpy as np
 from scipy import sparse as sp
+from sima.PRETTI.PRETTI_Trie import PTrie
+from sima.PRETTI.PRETTI_invertedIndex import InvertedIndex
+from sima.samplers.assignment import PRETTISampleAssignmentMixin
+
 
 def test_inverted_index(): 
     Y = np.array([ [0,1,0], [1,1,0], [0,0,1]  ])

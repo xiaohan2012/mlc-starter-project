@@ -1,9 +1,9 @@
 from tqdm import tqdm
 from collections import Counter
 from ..trie import SetTrie
-from dmrs.PRETTI.PRETTI_Trie import PTrie
-from dmrs.PRETTI.PRETTI_invertedIndex import InvertedIndex
-from dmrs.utils import convert_matrix_to_sets, convert_matrix_to_sets_v2
+from ..PRETTI.PRETTI_Trie import PTrie
+from ..PRETTI.PRETTI_invertedIndex import InvertedIndex
+from ..utils import convert_matrix_to_sets, convert_matrix_to_sets_v2
 from logzero import logger
 
 class NaiveSampleAssignmentMixin:

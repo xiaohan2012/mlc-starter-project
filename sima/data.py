@@ -108,6 +108,7 @@ class Dataset(Configurable):
             )
             labels_names = np.array([l.attribute_name for l in md.labels])
             attr_names = np.array([l.attribute_name for l in md.attributes])
+            self.md = md  # save meta info
 
         # label id from/to name mapping
         self.label_names = labels_names
